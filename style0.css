@@ -1,0 +1,50 @@
+*{
+    background-image: url('photo3.png')
+}
+
+
+#Polling-Website{
+    border: 10px solid black;
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+    color: red;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+    letter-spacing: 3px;
+}
+
+
+#description{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(37, 11, 233);
+}
+
+#loginid{
+    font-size: 50px;
+    font-style: oblique;
+    text-align: center;
+    color: black;
+}
+
+#signupid{
+    font-size: 50px;
+    font-style: oblique;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+#form{
+    background-color: rgba(128, 128, 128, 0);
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 40px;
+
+}
+
+

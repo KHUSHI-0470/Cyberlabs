@@ -1,0 +1,50 @@
+/*#form{
+    background-color: rgba(222, 14, 14, 0);
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 50px;
+
+}*/
+
+
+nav{
+    display: flex;
+    background-color: rgba(17, 134, 223, 0);
+    overflow: hidden;
+    font-weight: 600px;
+    position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: right;
+  text-decoration: none;
+  padding-left: 30px;
+}
+
+
+#form{
+    background-color: rgba(0, 255, 119, 0.177);
+    font-size: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    padding: 110px;
+    margin: 30px;
+}
+
+
+#homepgbtn{
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+

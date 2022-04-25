@@ -1,0 +1,61 @@
+
+nav{
+    display: flex;
+    background-color: rgba(17, 134, 223, 0);
+    overflow: hidden;
+    font-weight: 600px;
+    position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: right;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-weight: 1000px;
+}
+
+
+#question{
+    
+    text-align: left;
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+#logout-btn{
+    align-items:var(margin-right);
+    justify-content: right;
+    text-decoration: blueviolet;
+    font-size: xx-large;
+}
+
+#btn1{
+    text-decoration: none;
+    color:darkorchid;
+    border-radius: 10px;
+    font-size: 25px;
+}  
+
+
+#homepgbtn{
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 30px;
+    color: black;
+}
+
+
+#form{
+      background-color: rgba(27, 216, 166, 0.373);
+      font-size: 30px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      padding: 40px;
+      margin: 40px;
+
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style-index.css" />
+    <title>Polling Website-New Registration</title>
+  </head>
+  <body>
+    <form class="form-hidden" id="createAccount">
+      <h1 id="khushi1">Online Voting System</h1>
+
+      <hr />
+
+      <h2 id="khushi2">New Registration</h2>
+
+      <br />
+
+      <div>
+        <label><b>E-mail</b></label>
+        <input type="email" id="signup-email" name="email" placeholder="E-mail"/>
+      </div>
+
+      <br />
+
+      <div>
+        <label><b>Password</b></label>
+        <input type="password" id="signup-password" placeholder="Password" />
+      </div>
+
+      <br />
+
+      <button id="signupbtn">Submit</button>
+
+      <br />
+
+      <br />
+
+      <a href="./" id="linklogIn">Already a User? Sign in here </a>
+    </form>
+
+    <form id="logIn">
+      <h1 id="khushi3">Online Voting System</h1>
+      <hr />
+      <div>
+        <h2>Login</h2>
+        <label><b>E-mail</b></label>
+        <input id="signin-email"  type="email" name="email" placeholder="E-mail"/>
+      </div>
+
+      <br />
+      <div>
+        <label><b>Password</b></label>
+        <input id="signin-password" type="password" placeholder="Password" />
+      </div>
+
+      <br />
+      <button id="signinbtn">login</button>
+
+      <br />
+      <br />
+      <div>
+        <a href="./" id="linkcreateAccount">New User? Register here</a>
+      </div>
+    </form>
+
+    <script src="index.js"></script>
+    <script type="module" src="firebase.js"></script>
+    <script type="module" src="authentication.js"></script>
+   
+  </body>
+</html>

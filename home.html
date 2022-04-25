@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First Website</title>
+    <link rel="stylesheet" href="style-home.css"/>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-database.js"></script>
+
+    
+    <!-- <script type="module" src="firebase.js"></script>
+    <script type="module" src="authentication.js"></script> -->
+    <script  src="home-share.js"></script>
+    <!-- <script  src="home-share1.js"></script>
+    <script  src="home-share2.js"></script> -->
+  </head>
+  <body>
+    <nav>
+      <button id="homepgbtn"  style="text-decoration: none; background-color:rgba(13, 225, 119, 0.363); color: black;">
+        <a href="polling intro first page.html">Home</a>
+        <button id="logout-btn" style="text-decoration: none; background-color:rgba(13, 225, 119, 0.363); border-radius: 10px;">LogOut</button>
+ </button>
+    </nav>
+
+  <br>
+  <br>
+  <br>
+
+
+  <main id="form">
+    
+      <p id="que1"><input type="text"  id="title" placeholder="Enter your question" required></p>
+  
+      <p><input type="text" id="option1" placeholder="Option 1" required></p>
+      <br>
+      <p><input type="text"  id="option2" placeholder="Option 2" required></p>
+      <br>
+      <p><input type="text"  id="option3" placeholder="Option 3" required></p> 
+      <br>
+      <p><input type="text"   id="option4" placeholder="Option 4" required></p>
+      <br>
+  
+     <button id="btn1"  value="Submit" onclick="submit()">Submit</button>
+  
+    <br>
+    <br>
+      <!-- <button id="logout-btn" style="text-decoration: none; background-color:red; border-radius: 10px;">LogOut</button> -->
+
+
+      <button id="submitbtn">
+        <a href="share.html" style="text-decoration: none; background-color:rgba(47, 224, 255, 0); border-radius: 10px;  font-size: 50px;">
+         Poll Count</a>
+    </button>
+  </main>
+
+
+
+  </body>
+</html>
